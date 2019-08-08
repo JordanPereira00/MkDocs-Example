@@ -8,7 +8,7 @@ notifications:
   
 env:
   global:
-    - secure: 
+    - secure: jJkD3/Oa47+IOV9GNTMqIfu3SVt0u0rZcTxfIX9TlSWvQNiGjn0MNUy668wsBPpUZbX/mS5z3CfYul5jRzRt0JC/riYzrWQ9a0n83yJeFGEbjANg5S4mQNaRSTBfYzjWjNrryrpGSuKozZ9AgMH5wRwcPuVasxlk15n9NWcUe6Nr4nwoPH8545/lVmyyGKECeTwaPTmVxVGuKsxvzynoiLijJAw5wBvw1stl9YuX+TftgFP+MH+ReYjRpMBnvy19sOaYbT5WqPgAt/BQhvtFn8SOQhqmbiUbIyhij2/5OqL3MMJ6Eobw4M8+FnYy9Rc6VMBe3lHpcRAa/UflcPWMpu/nH4AlkaltsczpXR9umTw54UAnrH4hJSdRXiZn0OKU7ClAtwdQlpaGukExLC1/oHZWuHMjP9O8LSrGRVe/yLGJnep5Yy/evihcTarSJ9wWOxrTDsZ3yJWwqUDy3VGV6y/5Vlms+IOJp7X7zAH26hMY9BDUerRZ3JW5Io96QlcA1dBsRKvc7R1EwBYnDP0bWJYTpvIKqU02OLWLORU6LOnpyUkCHXlzoV2axtz6KbC23agPHpMNl9kjrsYLdL8pffe1FoDmsSbaFXidhr9KvDJKcO2HdGLXYl49Pua+7jpmzOEQLKuIGG6ICLphDmtEL//qVPMvqDShsY+Kudc0294=
 
 install:
   - pip install mkdocs
