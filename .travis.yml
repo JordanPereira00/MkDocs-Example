@@ -1,1 +1,31 @@
-text
+sudo: required
+language: python
+python:
+  - "3.5"
+
+notifications:
+  email: false
+  
+env:
+  global:
+    - secure: 
+
+install:
+  - pip install mkdocs
+  - pip install mkdocs-material
+
+script:
+  - mkdocs build
+
+
+deploy:
+  - provider: pages
+    edge:
+      branch: v1.8.47
+    skip_cleanup: true
+    local-dir: site
+    github_token: $GITHUB_TOKEN
+    github_url: github.com
+    verbose: true
+    on:
+      branch: master
