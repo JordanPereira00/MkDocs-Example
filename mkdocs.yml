@@ -1,0 +1,7 @@
+site_name: MkDocs with Travis CI
+theme:
+  font: false
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'red'
